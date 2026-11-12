@@ -1,0 +1,10 @@
+# Path budget: web/.gitignore only. Dependency/cache rules apply at every nesting level in web/.
+node_modules/
+.npm/
+.cache/
+.vite/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.tgz

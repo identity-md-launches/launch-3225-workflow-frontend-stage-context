@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "launchId": "e928fdd0-7edc-4047-9eec-9bc545061d06",
+  "chainId": 1,
+  "sourceCommit": "e1e2aafda2d789723da1884a6a98f2753f1a7f18",
+  "attestationHash": "25c4fde4c835f1aa51ad7c286be9ee3d833cd535a79b32c95187a810f5ce2c87",
+  "contracts": [
+    {
+      "name": "GtaSixMarket",
+      "address": "0x2a885c367a5b6a3a020d190536a35092c0b36f07",
+      "abiHash": "0d7283d4cca5392b0cd17c8232a9f70d33871d0025e6306d9c6ea3efa1a62c78",
+      "abiPath": "abi/GtaSixMarket.json"
+    }
+  ],
+  "network": {
+    "chainId": 1,
+    "name": "Ethereum",
+    "testnet": false,
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "explorer": "https://etherscan.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "universalRouter": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "quoter": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+      "stateView": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+      "positionManager": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    },
+    "pairToken": {
+      "address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    },
+    "otherPairTokens": [
+      {
+        "id": "fwa",
+        "address": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+        "symbol": "FWA",
+        "name": "Fake World Assets",
+        "decimals": 18
+      }
+    ]
+  },
+  "walletAddChain": {
+    "chainId": "0x1",
+    "chainName": "Ethereum",
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://etherscan.io"
+    ]
+  },
+  "assets": [
+    {
+      "path": "abi/GtaSixMarket.json",
+      "sha256": "d59bbd1864151027d7b051fba6b7ad9ba7a6c850277091c2d38a0e70a6170bf8"
+    },
+    {
+      "path": "assets/ccip-CYEPkVBh.js",
+      "sha256": "2553a1ff3839351862afcc423f40676cd7f116a6461f4c50d41c24e9453206ba"
+    },
+    {
+      "path": "assets/dist-CXIxz-mh.js",
+      "sha256": "62128566684cddc6919d829a111e34ecf05b103e81313320e502c918e5b61930"
+    },
+    {
+      "path": "assets/index-ppB3nnuv.css",
+      "sha256": "7b753ff095bb2fc7ac3be581eb2da8440724d73c6836542efd402752d88bf297"
+    },
+    {
+      "path": "assets/index-yeCWOaLk.js",
+      "sha256": "4bc46b3d205be76f36653a8362a5e1d0a63dab083530b8690f61054f4774d21c"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "74ebb549548cafc1d1c4dd0bc9c9d3f3fa0eb68f658d8979b579137571a2e61e"
+    },
+    {
+      "path": "index.html",
+      "sha256": "7b4bb06264009ed6a94c9c71524710beb672517a7bf74f8e5c08e7f4ce0bbd11"
+    },
+    {
+      "path": "share.png",
+      "sha256": "be5059c7981fa41605b128da7a4be3c4eef6e8b57da2b16de1b43f1e9ab5fe58"
+    },
+    {
+      "path": "third-party.txt",
+      "sha256": "df30c2b39af7b33e0c790d2ecd0558b34fc5b4ec0e5ff558099d3f30ef561c4d"
+    },
+    {
+      "path": "wallets/coinbase.svg",
+      "sha256": "1bb41de8b7f7169609f0654c0cea6bdba66d7ca5dde66bd377534539fe26ae79"
+    },
+    {
+      "path": "wallets/metaMask.svg",
+      "sha256": "892c7dfab8c4ca5682878dda3f42f55a75195d7d365e4adb0832845f3a0a2135"
+    },
+    {
+      "path": "wallets/phantom.svg",
+      "sha256": "f841f8112e131259a2e5123177950099c79487e61e77971f4e193e6c374419eb"
+    },
+    {
+      "path": "wallets/rabby.svg",
+      "sha256": "dcae4de88ebfa10cffa1fe28df13d7c8c0b40736ef2b704f1f2fc348e777e443"
+    }
+  ]
+}

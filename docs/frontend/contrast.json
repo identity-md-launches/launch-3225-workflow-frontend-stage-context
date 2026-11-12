@@ -1,0 +1,61 @@
+{
+  "method": "WCAG relative luminance calculated from the final source token pairs. Rendered base-page measurement is separately recorded by taste.",
+  "pairs": [
+    {
+      "foreground": "--color-muted",
+      "background": "--color-page",
+      "foregroundValue": "#62635b",
+      "backgroundValue": "#f6f4ef",
+      "ratio": 5.53
+    },
+    {
+      "foreground": "--color-text",
+      "background": "--color-surface",
+      "foregroundValue": "#242522",
+      "backgroundValue": "#fffefb",
+      "ratio": 15.28
+    },
+    {
+      "foreground": "--color-text",
+      "background": "--color-accent",
+      "foregroundValue": "#242522",
+      "backgroundValue": "#d4f189",
+      "ratio": 12.29
+    },
+    {
+      "foreground": "--color-yes",
+      "background": "--color-yes-soft",
+      "foregroundValue": "#326044",
+      "backgroundValue": "#eef4e8",
+      "ratio": 6.48
+    },
+    {
+      "foreground": "--color-no",
+      "background": "--color-no-soft",
+      "foregroundValue": "#874737",
+      "backgroundValue": "#f9ede7",
+      "ratio": 6.13
+    },
+    {
+      "foreground": "--color-error",
+      "background": "--color-surface",
+      "foregroundValue": "#922d25",
+      "backgroundValue": "#fffefb",
+      "ratio": 7.93
+    },
+    {
+      "foreground": "--color-focus",
+      "background": "--color-page",
+      "foregroundValue": "#5b3ab5",
+      "backgroundValue": "#f6f4ef",
+      "ratio": 7.03
+    },
+    {
+      "foreground": "--color-focus",
+      "background": "--color-surface",
+      "foregroundValue": "#5b3ab5",
+      "backgroundValue": "#fffefb",
+      "ratio": 7.66
+    }
+  ]
+}

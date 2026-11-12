@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checks": [
+    "Dev server serves the exact production manifest",
+    "Dev server serves the implementation ABI referenced by that manifest"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chainId": 1,
+  "repoUrl": "https://github.com/identity-md-launches/launch-3220-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "e928fdd0-7edc-4047-9eec-9bc545061d06",
+  "manifest": {
+    "kind": "evm_contracts",
+    "notes": "GtaSixMarket is an ownerless ETH parimutuel prediction market with no constructor arguments, deployment funding or initialization calls; its only constructor is the inherited Judged one, which reads the chain id and does not call any contract. Betting on YES or NO is accepted through the inclusive release cutoff of 2026-12-31 23:59:59 UTC (BETTING_CLOSES_AT), is suspended while a Judge question is pending, and closes for good once a YES verdict counts. Anyone may call resolve(proof) with a little ETH until 2027-01-06 23:59:59 UTC (LAST_ASK_AT); the first Judge YES verdict settled on or before 2027-01-07 23:59:59 UTC (RESOLUTION_DEADLINE) makes YES win, otherwise NO wins after that deadline with no further action. NO and no-answer verdicts decide nothing and reopen betting. Winners claim pro rata shares of the whole pot; if nobody backed the winning side, every bettor reclaims their own stake. Judge and its ETH payment door are existing external services whose Ethereum mainnet addresses are compiled into the inherited Judged code; this manifest deploys neither. Direct ETH transfers from anyone but the Judge door are refused. The market has no admin, fee, pause or upgrade role.",
+    "contracts": [
+      {
+        "contract": "GtaSixMarket",
+        "constructorArgs": []
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "GtaSixMarket",
+      "txHash": "0xd86485053a1fd93d45c6021deb92e69eb93965eb1cb7a19a08d4705a77f32348",
+      "abiHash": "0d7283d4cca5392b0cd17c8232a9f70d33871d0025e6306d9c6ea3efa1a62c78",
+      "address": "0x2a885c367a5b6a3a020d190536a35092c0b36f07",
+      "blockNumber": 26396167,
+      "creationCodeHash": "3ab0481fc24555dac670447a703a763078f8bd24b3e734b3cb0c126354907b55"
+    }
+  ],
+  "sourceCommit": "e1e2aafda2d789723da1884a6a98f2753f1a7f18",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "25c4fde4c835f1aa51ad7c286be9ee3d833cd535a79b32c95187a810f5ce2c87"
+}

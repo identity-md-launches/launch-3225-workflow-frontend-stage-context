@@ -1,0 +1,101 @@
+{
+  "recordedAt": "2026-11-12T04:10:30.756Z",
+  "validation": "Worker-run; mocked chain/wallet only, no live transactions",
+  "results": [
+    {
+      "name": "Static subpath, mobile first screen, reflow, typography and accessibility",
+      "passed": true,
+      "durationMs": 2377
+    },
+    {
+      "name": "YES and NO bets simulate, require review, and send exact wei to the manifest contract",
+      "passed": true,
+      "durationMs": 932
+    },
+    {
+      "name": "Keyboard-only wallet connection, radio choice, amount entry and reviewed bet",
+      "passed": true,
+      "durationMs": 637
+    },
+    {
+      "name": "Unknown chain offers exact wallet_addEthereumChain handoff, then switches again",
+      "passed": true,
+      "durationMs": 446
+    },
+    {
+      "name": "Rejected chain switch leaves a visible wrong-network state and no transaction access",
+      "passed": true,
+      "durationMs": 415
+    },
+    {
+      "name": "Wallet rejection and simulation revert show recovery and do not broadcast",
+      "passed": true,
+      "durationMs": 779
+    },
+    {
+      "name": "Pending confirmation prevents duplicate submissions; a reverted receipt reports gas spent",
+      "passed": true,
+      "durationMs": 628
+    },
+    {
+      "name": "Pending transaction survives reload and must be confirmed before actions unlock",
+      "passed": true,
+      "durationMs": 828
+    },
+    {
+      "name": "Evidence validates ASCII and byte length; resolve sends the reviewed proof and budget",
+      "passed": true,
+      "durationMs": 724
+    },
+    {
+      "name": "Pending questions suspend betting; settlement handles still-voting and successful simulation",
+      "passed": true,
+      "durationMs": 763
+    },
+    {
+      "name": "Resolved market enables the exact claim amount and locks betting/evidence",
+      "passed": true,
+      "durationMs": 643
+    },
+    {
+      "name": "RPC fallback works; missing code and wrong RPC chain keep actions disabled",
+      "passed": true,
+      "durationMs": 1448
+    },
+    {
+      "name": "Read failures retain marked data, lock actions, and recover on explicit refresh",
+      "passed": true,
+      "durationMs": 687
+    },
+    {
+      "name": "NO wins after the deadline and a contract-derived refund remains claimable",
+      "passed": true,
+      "durationMs": 575
+    },
+    {
+      "name": "Phone without extension offers four wallet browser links and Coinbase Smart Wallet",
+      "passed": true,
+      "durationMs": 1374
+    },
+    {
+      "name": "Long balances, full addresses, 200% text and account changes preserve reflow",
+      "passed": true,
+      "durationMs": 690
+    },
+    {
+      "name": "Tampered ABI cannot unlock the app",
+      "passed": true,
+      "durationMs": 329
+    },
+    {
+      "name": "Wallet session reconnects without a new permission request; disconnect clears it",
+      "passed": true,
+      "durationMs": 704
+    },
+    {
+      "name": "WebKit",
+      "status": "not run",
+      "reason": "WebKit executable is not installed in the worker runtime."
+    }
+  ]
+}

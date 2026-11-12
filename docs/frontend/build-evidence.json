@@ -1,0 +1,57 @@
+{
+  "recordedAt": "2026-11-12T04:12:31.991Z",
+  "exportManifestSha256": "18ddc0f7d68d2f168a8736de893935f874496ab82009e63a01710799b4342bab",
+  "sourceCommit": "e1e2aafda2d789723da1884a6a98f2753f1a7f18",
+  "abiHash": "0d7283d4cca5392b0cd17c8232a9f70d33871d0025e6306d9c6ea3efa1a62c78",
+  "abiGitBlob": "b827ae9b1d80f6f6948e307a20e5a0672a19b9ff",
+  "abiSha256": "d59bbd1864151027d7b051fba6b7ad9ba7a6c850277091c2d38a0e70a6170bf8",
+  "assetCount": 13,
+  "assetBytes": 718088,
+  "manifestBytes": 3709,
+  "largestAssetBytes": 493738,
+  "checks": {
+    "build": true,
+    "typecheck": true,
+    "manifestAndAllAssetHashes": true,
+    "pinnedAbiBytes": true,
+    "unitTestsPassed": 6,
+    "interactionScenariosPassed": 18,
+    "tasteChecksPassed": 16
+  },
+  "lowestMeasuredTextContrast": [
+    {
+      "selector": "#market > div.intro:nth-of-type(1) > div > p",
+      "text": "Bet ETH on a full release by December 31.",
+      "ratio": 5.53,
+      "size": 14
+    },
+    {
+      "selector": "aside.market-detail > section.overview:nth-of-type(1) > div.section-head > span.small.muted",
+      "text": "All times UTC",
+      "ratio": 5.53,
+      "size": 14
+    },
+    {
+      "selector": "ol.timeline > li:nth-of-type(1) > div > p",
+      "text": "31 Dec 2026, 23:59:59 UTC",
+      "ratio": 5.53,
+      "size": 14
+    },
+    {
+      "selector": "ol.timeline > li:nth-of-type(2) > div > p",
+      "text": "6 Jan 2027, 23:59:59 UTC",
+      "ratio": 5.53,
+      "size": 14
+    },
+    {
+      "selector": "ol.timeline > li:nth-of-type(3) > div > p",
+      "text": "7 Jan 2027, 23:59:59 UTC",
+      "ratio": 5.53,
+      "size": 14
+    }
+  ],
+  "localGitCommit": {
+    "performed": false,
+    "reason": "Git metadata is read-only; git add could not create .git/index.lock."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "recordedAt": "2026-11-12T04:04:59.721488+00:00",
+  "method": "eth_chainId",
+  "results": [
+    {
+      "url": "https://ethereum-rpc.publicnode.com",
+      "httpStatus": 403,
+      "verified": false
+    },
+    {
+      "url": "https://eth.drpc.org",
+      "httpStatus": 403,
+      "verified": false
+    }
+  ],
+  "contractCode": "Unverified because neither configured public RPC accepted the request. No transaction broadcast."
+}
